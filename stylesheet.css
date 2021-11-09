@@ -5,7 +5,8 @@ body {
 	font-family: 'Roboto', sans-serif;
 }
 #header-nav {
-	background-color: #EFBF37;
+	background-color: #56C4EF;
+	color: #020201;
 	border-radius: 0;
 	border: 0;
 }
@@ -24,10 +25,23 @@ body {
 .navbar-brand a:hover, .navbar-brand a:focus {
 	background-color: #E7E7E7;
 }
+.navbar-header button.navbar-toggler {
+	clear: both;
+}
 .navbar-toggler-icon {
-	border: 1px solid #000000;
+    display: inline-block;
+    width: 1.5em;
+    height: 1.5em;
+    vertical-align: middle;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
 }
 #nav-list a:hover, #nav-list a:focus {
 	text-decoration: none;
 }
+.collapse navbar-collapse {
+}
+
 
