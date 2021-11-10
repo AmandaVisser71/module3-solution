@@ -57,11 +57,11 @@ a {
 }
 .row ul {
 	background-color: #23E282;
+	padding-top: 20px;
 	padding-right: 20px;
-	padding-left: 20px;
+    padding-left: 20px;
 }
-.navbar-nav .nav-item  h3 p {
-    padding-top: 15px;
+.navbar-nav .nav-item  h3 p {   
 }
 .nav-item  h3 {
 	font-size: 1.8em;
