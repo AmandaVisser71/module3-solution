@@ -22,19 +22,18 @@ body {
 	margin-top: 0px;
 	margin-bottom: 0px;
 }
-.navbar-brand h1 a:hover {
-	opacity: .8;
+a {
+	text-decoration: none;
 }
+a:hover a:focus {
+	opacity: .8;
+} 
 .text-center h2 {
 	font-family: 'Roboto', sans-serif;
 	color: #0C2DEF;
 	font-weight: bold;
-	text-decoration: none;
-	margin-top: 5px;
+	margin-top: 2px;
 }
-.text-center h2 a:hover a:focus {
-	opacity: .8;
-	}
 #header-nav a:hover {
 	color: #575A5B;
 }
@@ -51,10 +50,14 @@ body {
     background-size: 100%;
     position: relative;
 }
-.navbar-nav .nav-link {
-    padding-right: 0;
+.visible {
+	min-width: 576px;
+	max-width: 1200px
+}
+.navbar-nav .nav-item .nav-link {
+   padding-right: 0;
     padding-top: 0;
-    padding-left: 80%;
+    padding-left: 85%;
     margin-top: 0;
 }
 .nav-link {
