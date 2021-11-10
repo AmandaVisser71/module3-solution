@@ -51,8 +51,8 @@ a {
 }
 .row {
 	border-width: 80%;
-	margin-right: 60px;
-	margin-left: 60px;
+	margin-right: 10%;
+	margin-left: 10%;
 	position: relative;
 }
 .row ul {
