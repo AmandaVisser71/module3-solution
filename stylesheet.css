@@ -4,16 +4,13 @@ body {
 	background-color: #F4F1D3;
 	font-family: 'Roboto', sans-serif;
 }
-#header-nav {
+.navbar #header-nav {
 	background-color: #56C4EF;
-	color: #020201;
-	border-radius: 0;
-	border: 0;
 }
-.navbar-brand {
-	padding-top: 25px;
+#header-nav h1:hover {
+	opacity: .8;
 }
-.navbar-brand h1 { /* Restaurant name */
+#header-nav h1 { /* Restaurant name */
 	font-family: 'Roboto', sans-serif;
 	color: #1E1A1C;
 	font-size: 2em;
@@ -21,12 +18,10 @@ body {
 	text-align: left;
 	margin-top: 0px;
 	margin-bottom: 0px;
+	padding-top: 20px;
 }
 a {
 	text-decoration: none;
-}
-a:hover a:focus {
-	opacity: .8;
 } 
 .text-center h2 {
 	font-family: 'Roboto', sans-serif;
@@ -34,8 +29,8 @@ a:hover a:focus {
 	font-weight: bold;
 	margin-top: 2px;
 }
-#header-nav a:hover {
-	color: #575A5B;
+.text-center h2:hover {
+	opacity: .8;
 }
 .navbar-header button.navbar-toggler {
 	clear: both;
@@ -54,17 +49,19 @@ a:hover a:focus {
 	min-width: 576px;
 	max-width: 1200px
 }
-.navbar-nav .nav-item .nav-link {
-   padding-right: 0;
-    padding-top: 0;
-    padding-left: 85%;
-    margin-top: 0;
+.row {
+	border-width: 80%;
+	margin-right: 60px;
+	margin-left: 60px;
+	position: relative;
 }
-.nav-link {
-    display: block;
-    color: #0d6efd;
-    text-decoration: none;
-    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out;
+.row ul {
+	background-color: #23E282;
+	padding-right: 80px;
+	padding-left: 80px;
+}
+.navbar-nav .nav-item  h2 p {
+    padding-top: 15px;
 }
 
 @media (max-width: 767px) {
